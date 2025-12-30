@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://c61h5uu3qenmc"]
+
+[ext_resource type="Texture2D" uid="uid://c847ph8uxfmug" path="res://assets/base/leaders/HtS-PnP-Base-105.png" id="1_larfg"]
+[ext_resource type="Script" uid="uid://b44xsrx2fhw0i" path="res://data/card.gd" id="2_446y2"]
+
+[resource]
+script = ExtResource("2_446y2")
+name = "The Divine Arrow"
+image = ExtResource("1_larfg")
+card_type = "Leader"
+class_type = "Ranger"

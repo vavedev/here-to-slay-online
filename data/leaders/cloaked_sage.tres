@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://biyiqeg7hes3y"]
+
+[ext_resource type="Script" uid="uid://b44xsrx2fhw0i" path="res://data/card.gd" id="1_aapfd"]
+[ext_resource type="Texture2D" uid="uid://dtcybrrlctvfj" path="res://assets/base/leaders/HtS-PnP-Base-104.png" id="1_cogt4"]
+
+[resource]
+script = ExtResource("1_aapfd")
+name = "The Cloaked Sage"
+image = ExtResource("1_cogt4")
+card_type = "Leader"
+class_type = "Wizard"

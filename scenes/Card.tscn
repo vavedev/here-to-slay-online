@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://fhqor2nawyrr"]
+
+[ext_resource type="Script" uid="uid://cueym5sivbtpq" path="res://scripts/CardView.gd" id="1_yiag5"]
+[ext_resource type="Resource" uid="uid://j20vfid7flc6" path="res://data/leaders/protecting_horn.tres" id="2_tgmmg"]
+
+[node name="Card" type="Control"]
+custom_minimum_size = Vector2(160, 220)
+layout_mode = 3
+anchor_right = 0.13900001
+anchor_bottom = 0.34
+offset_right = -0.12802124
+offset_bottom = -0.32000732
+script = ExtResource("1_yiag5")
+card_data = ExtResource("2_tgmmg")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="CardImage" type="TextureRect" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 3
+
+[node name="NameLabel" type="Label" parent="Panel"]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+mouse_filter = 0
+
+[node name="DescLabel" type="Label" parent="Panel"]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+mouse_filter = 0

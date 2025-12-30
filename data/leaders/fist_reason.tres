@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://1re685tltmfa"]
+
+[ext_resource type="Texture2D" uid="uid://ddtmpq53weh1w" path="res://assets/base/leaders/HtS-PnP-Base-103.png" id="1_1871b"]
+[ext_resource type="Script" uid="uid://b44xsrx2fhw0i" path="res://data/card.gd" id="2_fjydt"]
+
+[resource]
+script = ExtResource("2_fjydt")
+name = "The Fist of Reason"
+image = ExtResource("1_1871b")
+card_type = "Leader"
+class_type = "Fighter"

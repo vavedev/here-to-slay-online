@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://bccb2aokwynma"]
+
+[ext_resource type="Texture2D" uid="uid://dk577hc2v1viu" path="res://assets/base/leaders/HtS-PnP-Base-102.png" id="1_2loe2"]
+[ext_resource type="Script" uid="uid://b44xsrx2fhw0i" path="res://data/card.gd" id="2_1xuwe"]
+
+[resource]
+script = ExtResource("2_1xuwe")
+name = "The Shadow Claw"
+image = ExtResource("1_2loe2")
+card_type = "Leader"
+class_type = "Thief"

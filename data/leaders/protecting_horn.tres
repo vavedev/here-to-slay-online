@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://j20vfid7flc6"]
+
+[ext_resource type="Texture2D" uid="uid://df44c3uxb5unt" path="res://assets/base/leaders/HtS-PnP-Base-101.png" id="1_2y2hb"]
+[ext_resource type="Script" uid="uid://b44xsrx2fhw0i" path="res://data/card.gd" id="2_m4x2j"]
+
+[resource]
+script = ExtResource("2_m4x2j")
+name = "The Protecting Horn"
+image = ExtResource("1_2y2hb")
+card_type = "Leader"
+class_type = "Guardian"
+metadata/_custom_type_script = "uid://b44xsrx2fhw0i"

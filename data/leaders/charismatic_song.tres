@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3 uid="uid://be3jcoao10d40"]
+
+[ext_resource type="Texture2D" uid="uid://erl601l55qw6" path="res://assets/base/leaders/HtS-PnP-Base-106.png" id="1_kirwe"]
+[ext_resource type="Script" uid="uid://b44xsrx2fhw0i" path="res://data/card.gd" id="2_5mxlk"]
+
+[resource]
+script = ExtResource("2_5mxlk")
+name = "The Charismatic Song"
+image = ExtResource("1_kirwe")
+card_type = "Leader"
+class_type = "Bard"

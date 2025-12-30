@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://4fufgsydng55"]
+
+[ext_resource type="Script" uid="uid://dvynortuxrsr2" path="res://scripts/GameManager.gd" id="1_xnrmx"]
+[ext_resource type="PackedScene" uid="uid://cbncdaj4eponp" path="res://scenes/Hand.tscn" id="2_wplmo"]
+
+[node name="Main" type="Control"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 3
+anchor_right = 1.001
+anchor_bottom = 1.0
+offset_right = -0.15209961
+offset_bottom = -1.0
+mouse_filter = 1
+script = ExtResource("1_xnrmx")
+
+[node name="Hand" parent="." instance=ExtResource("2_wplmo")]
+layout_mode = 1
